@@ -1,0 +1,21 @@
+[05/31/2024 10:13:30 AM] INFO: Starting to process 'mylist'...
+[05/31/2024 10:13:30 AM] DEBUG: Value at position 0 is 1
+[05/31/2024 10:13:30 AM] DEBUG: Value at position 1 is 2
+[05/31/2024 10:13:30 AM] DEBUG: Value at position 2 is 3
+[05/31/2024 10:13:30 AM] ERROR: Faulty position: 3
+Traceback (most recent call last):
+  File "F:\python-code\learning-python\ch11\log.py", line 15, in <module>
+    'Value at position %s is %s', position, mylist[position]
+                                            ~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+[05/31/2024 10:13:30 AM] INFO: Done processing 'mylist'.[11/30/2024 11:18:18 PM] INFO: Starting to process 'mylist'...
+[11/30/2024 11:18:18 PM] DEBUG: Value at position 0 is 1
+[11/30/2024 11:18:20 PM] DEBUG: Value at position 1 is 2
+[11/30/2024 11:18:20 PM] DEBUG: Value at position 2 is 3
+[11/30/2024 11:18:20 PM] ERROR: Faulty position: 3
+Traceback (most recent call last):
+  File "F:\python-code\LearnPythonProgram4\11-debug\log.py", line 14, in <module>
+    logging.debug("Value at position %s is %s", position, mylist[position])
+                                                          ~~~~~~^^^^^^^^^^
+IndexError: list index out of range
+[11/30/2024 11:18:20 PM] INFO: Done processing 'mylist'.
